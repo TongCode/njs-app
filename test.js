@@ -11,4 +11,4 @@ var server = http.createServer(function (req, res) {
   res.end("Hello openshift");
 });
 
-http.listen(port, ip);
+server.listen(port, ip);
